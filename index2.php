@@ -30,7 +30,7 @@ function reverseWords ( $str1 ) {
 
 	foreach ( explode ( ' ', $str1 ) as $char ) {
 
-		$reverseStr .= mb_substr ( strrev ( $char . ' ' ), 0 );
+		$reverseStr .= strrev ( $char . ' ' );
 
 	}
 
@@ -82,7 +82,7 @@ function countNumberThree ( $ar ) {
 			if ( preg_match_all ( '/3/', $value, $matches ) ) {
 
 				$occur += count ( $matches[0] );
-				
+
 			}
 		}
 

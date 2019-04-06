@@ -2,10 +2,15 @@
 //PHP TASK #1
 echo '<h4> Task #1</h4>';
 function concatWords ( string $text1, string $text2 ): string {
+
 	if ( ! is_string ( $text1 ) || ! is_string ( $text2 ) || empty( $text1 ) || empty( $text2 ) ) {
+
 		throw new InvalidArgumentException( 'Argument must be: string, not empty' );
+
 	} else {
+
 		return $text1 . ' ' . $text2 . '<br>';
+
 	}
 }
 
@@ -24,12 +29,19 @@ echo substr ( $var, 4, 1 ) . '<br>';
 echo '<h4> Task #3</h4>';
 
 function checkNumberRange ( $a ) {
+
 	if ( ! is_numeric ( $a ) || empty( $a ) || ( $a === null ) ) {
+
 		throw new InvalidArgumentException();
+
 	} elseif ( $a > 0 && $a < 5 ) {
+
 		$result = 'Вірно';
+
 	} else {
+
 		$result = 'Невірно';
+
 	}
 
 	return $result;
@@ -42,12 +54,16 @@ echo checkNumberRange ( $a );
 //PHP TASK #4
 echo '<h4> Task #4</h4>';
 function quaterHour ( $minute = 0 ) {
+
 	$quoter = '';
+
 	if ( ( ! is_numeric ( $minute ) ) || ( $minute > 60 ) || ( empty( $minute ) || ( $minute === null ) ) ) {
+
 		throw new InvalidArgumentException( 'Argument must be: numeric,  2-digit and not empty, range 1-60' );
+
 	} else {
-		/// check by int
 		switch ( $minute ) {
+
 			case $minute <= 15:
 				$quoter = 'First';
 				break;
@@ -81,9 +97,11 @@ function quaterHour ( $minute = 0 ) {
 
 //PHP TASK #5
 echo '<h4> Task #5</h4>';
-$year = 2019;
+
 function checkHighYear ( $year ) {
+
 	return ( ( $year % 400 == 0 ) || ( $year % 4 == 0 && $year % 100 != 0 ) ) ? 'Це високосний рік!' : 'Це звичайний рік!';
+
 }
 
 $year = 2100;
@@ -92,16 +110,25 @@ echo checkHighYear ( $year );
 //PHP TASK #6
 echo '<h4> Task #6</h4>';
 function checkSumParts ( $str ) {
+
 	if ( ! is_numeric ( $str ) || empty( $str ) || $str === null || strlen ($str)!==6  ) {
+
 		throw new InvalidArgumentException( 'Argument must be: numeric, not empty, 6th characters in number!' );
+
 	} else {
+
 		$leftPartStr  = 0;
 		$rightPartStr = 0;
+
 		for ( $i = 0; $i < strlen ( $str ) / 2; $i ++ ) {
+
 			$leftPartStr += $str[ $i ];
+
 		}
 		for ( $j = strlen ( $str ) / 2; $j < strlen ( $str ); $j ++ ) {
+
 			$rightPartStr += $str[ $j ];
+
 		}
 	}
 
