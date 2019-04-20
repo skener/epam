@@ -76,8 +76,8 @@ if (isset($priceOrder) || isset($_COOKIE['tag_filter'])) {
         <th>POSTER</th>
         <th>URL</th>
         <th>
-            <a href="<?php echo 'index4.php?price_order=price_asc' ?>">+</a>
-            <a href="<?php echo 'index4.php?price_order=price_desc' ?>">-</a>
+            <a href="<?php echo 'web.php?price_order=price_asc' ?>">+</a>
+            <a href="<?php echo 'web.php?price_order=price_desc' ?>">-</a>
         </th>
         <th>TAGS</th>
     </tr>
@@ -139,7 +139,7 @@ for (
     $page <= $number_of_pages;
     $page++
 ) {
-    echo '<a href="index4.php?page=' . $page . '">' . $page . '</a>';
+    echo '<a href="web.php?page=' . $page . '">' . $page . '</a>';
 }
 
 ?>
