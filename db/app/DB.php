@@ -13,9 +13,7 @@ class DB
     public static function getAllBooks()
     {
 
-
         try {
-
 
             if ( ! isset($_GET['page'])) {
                 $page = 1;
@@ -53,7 +51,6 @@ LIMIT $per_page OFFSET  $offset";
         $pdo = null;
     }
 
-
     public static function getBookById($id)
     {
         try {
@@ -80,7 +77,6 @@ WHERE books.id = :id';
         $pdo = null;
     }
 
-
     public static function connect()
     {
         static $pdo = null;
@@ -98,7 +94,6 @@ WHERE books.id = :id';
 
         return $pdo;
     }
-
 
     public static function find($search)
     {
@@ -120,13 +115,11 @@ WHERE books.id = :id';
 
             return $books = $stmt->fetchAll();
 
-
         } catch (PDOException $e) {
             echo $e->getMessage();
         }
 
     }
-
 
     public static function sortByTags(string $tag)
     {
@@ -168,7 +161,6 @@ WHERE books.id = :id';
         }
 
     }
-
 
 }
 

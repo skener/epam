@@ -1,0 +1,16 @@
+{
+    "require": {
+    },
+    "autoload": {
+        "classmap": [
+            "Calculator.php",
+            "SumCommand.php",
+            "PowCommand.php",
+            "MultiCommand.php",
+            "DivisionCommand.php",
+            "SubCommand.php"
+        ]
+
+    }
+}
+

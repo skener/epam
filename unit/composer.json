@@ -1,0 +1,13 @@
+{
+  "require": {
+    "phpunit/phpunit": "^8.0"
+  },
+  "autoload": {
+    "files": [
+//      "src/quaterHour.php",
+//      "src/concatWords.php",
+//      "src/checkNumberRange.php",
+//      "src/checkHighYear.php"
+    ]
+  }
+}

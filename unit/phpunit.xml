@@ -7,27 +7,12 @@
          convertWarningsToExceptions="true"
          processIsolation="false"
          stopOnFailure="false"
+         verbose="true"
          bootstrap="vendor/autoload.php"
 >
     <testsuites>
         <testsuite name="My Epam Tests">
-            <directory suffix="Test.php">/tests</directory>
+            <directory>tests</directory>
         </testsuite>
     </testsuites>
-    <php>
-        <ini name="display_errors" value="On"/>
-        <ini name="display_startup_errors" value="On"/>
-    </php>
-    <filter>
-        <whitelist processUncoveredFilesFromWhitelist="false">
-            <directory suffix=".php">/src</directory>
-            <exclude>
-                <directory>tests</directory>
-            </exclude>
-        </whitelist>
-    </filter>
-    <logging>
-        <log type="coverage-html" target="reports/coverage"/>
-        <log type="coverage-clover" target="reports/phpunit.coverage.xml"/>
-    </logging>
 </phpunit>

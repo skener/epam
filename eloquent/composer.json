@@ -1,0 +1,17 @@
+{
+    "require": {
+        "symfony/http-foundation": "^4.2",
+        "illuminate/database": "^5.8"
+    },
+    "autoload": {
+        "files": [
+            "./core/kernel.php"
+        ],
+        "classmap": [
+            "app/Book.php",
+            "app/Tag.php",
+            "app/Admin.php"
+        ]
+    }
+}
+

@@ -1,7 +1,25 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: dell
- * Date: 11.04.2019
- * Time: 14:17
- */
+
+namespace Tests;
+
+use InvalidArgumentException;
+use PHPUnit\Framework\TestCase;
+
+class ConcatWordsTest extends TestCase {
+	/**
+	 * @return array
+	 */
+	public function positiveDataProvider () {
+		return [
+			[ 'Hello', 'World', 'Hello World' ]
+		];
+	}
+
+	/**
+	 * @dataProvider positiveDataProvider
+	 */
+	public function testPositive ( $text1, $text2, $expected ) {
+		$result = concatWords ( $text1, $text2  );
+		$this->assertEquals ( $expected, $result );
+	}
+}

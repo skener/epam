@@ -11,12 +11,12 @@ const DB_NAME = 'books';
  * Database user
  * @var string
  */
-const DB_USER = '';
+const DB_USER = 'skener';
 
 /**
  * Database password
  * @var string
  */
-const DB_PASSWORD = '';
+const DB_PASSWORD = '09731979';
 
 

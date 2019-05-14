@@ -23,10 +23,10 @@
 
         <p><b>Date</b>: <?= date_format(date_create($book['date']),'d/m/Y') ?></p>
 
-        <?php if (isset($book['tags'])): ?>
+        <?php if (isset($book->tags)): ?>
             <p>
                 <b>Tags</b>:
-                <?php foreach ((array)$book['tags'] as $tag): ?>
+                <?php foreach ($book->tags as $tag): ?>
                     <span class="label label-primary"><?= $tag ?></span>
                 <?php endforeach; ?>
             </p>

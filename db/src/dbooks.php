@@ -8,7 +8,6 @@ use Exception;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-
 /**
  * @return Response
  */
@@ -35,7 +34,6 @@ function bookById($id)
     return view(['default_layout.php', 'books/book_by_id.php'], compact('book'));
 }
 
-
 function find_query_book()
 {
     $request   = Request::createFromGlobals();
@@ -53,7 +51,7 @@ function find_query_book()
 function sortTags()
 {
     echo 'sorting...';
-    $request = Request::createFromGlobals();
+    $request  = Request::createFromGlobals();
     $queryTag = $request->get('tagSort');
     if ( ! isset($queryTag) || empty($queryTag)) {
         echo books();
@@ -65,6 +63,15 @@ function sortTags()
 
         return view(['default_layout.php', 'books/sort_books.php'], compact(['books', 'number_of_pages']));
     }
+
+}
+
+
+
+function createBooks(){
+$book  = \Book::find(1);
+var_dump($book->tags->pluck('title')->toArray());
+exit();
 
 
 }

@@ -28,7 +28,11 @@ if (isset($_GET['price_order'])) {
 
 }
 
-echo 'COOKIE set to:' . $_COOKIE['tag_filter'];
+if (isset($_COOKIE['tag_filter'])):
+
+echo  'COOKIE set to:' . $_COOKIE['tag_filter'];
+
+endif;
 
 if (isset($priceOrder) || isset($_COOKIE['tag_filter'])) {
 
@@ -72,10 +76,13 @@ if (isset($priceOrder) || isset($_COOKIE['tag_filter'])) {
     <thead>
     <tr>
         <th>ISBN</th>
-        <th>NAME</th>
+        <th>NAME
+            <a href="<?php echo 'web.php?name_order=name_asc' ?>">+</a>
+            <a href="<?php echo 'web.php?name_order=name_desc' ?>">-</a>
+        </th>
         <th>POSTER</th>
         <th>URL</th>
-        <th>
+        <th> PRICE
             <a href="<?php echo 'web.php?price_order=price_asc' ?>">+</a>
             <a href="<?php echo 'web.php?price_order=price_desc' ?>">-</a>
         </th>
@@ -139,7 +146,7 @@ for (
     $page <= $number_of_pages;
     $page++
 ) {
-    echo '<a href="web.php?page=' . $page . '">' . $page . '</a>';
+    echo '<a href="web.php?page=' . $page . '">  '.$page.'  </a>';
 }
 
 ?>

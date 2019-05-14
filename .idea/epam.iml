@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/db/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/db/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/db/vendor/illuminate/container" />
+      <excludeFolder url="file://$MODULE_DIR$/db/vendor/illuminate/contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/db/vendor/illuminate/database" />
+      <excludeFolder url="file://$MODULE_DIR$/db/vendor/illuminate/support" />
+      <excludeFolder url="file://$MODULE_DIR$/db/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/db/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/db/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/db/vendor/symfony/contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/db/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/db/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/db/vendor/symfony/translation" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
