@@ -51,11 +51,11 @@ $capsule->addConnection([
 
     "host" =>"127.0.0.1",
 
-    "database" => "books",
+    "database" => "",
 
-    "username" => "skener",
+    "username" => "",
 
-    "password" => "09731979"
+    "password" => ""
 
 ]);
 
