@@ -2,33 +2,11 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/eloquent/src/dbooks.php" line="4" />
+    <bookmark url="file://$PROJECT_DIR$/eloquent/resources/views/books/index.php" description="&lt;form action=&quot;&lt;?= \core\router\generate('sort_book..." line="19" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62913c08-b61d-47e7-9de5-17125feaea95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db/app/Book.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/app/Tag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php-test-framework.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/app/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/app/DB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/app/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/app/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/assets/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/assets/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/db/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/db/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/resources/views/books/book_by_id.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/resources/views/books/book_by_id.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/src/dbooks.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/dbooks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index2.php" beforeDir="false" afterPath="$PROJECT_DIR$/index2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index3.php" beforeDir="false" afterPath="$PROJECT_DIR$/index3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unit/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit/src/checkHighYear.php" beforeDir="false" afterPath="$PROJECT_DIR$/unit/src/checkHighYear.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit/src/checkNumberRange.php" beforeDir="false" afterPath="$PROJECT_DIR$/unit/src/checkNumberRange.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit/src/concatWords.php" beforeDir="false" afterPath="$PROJECT_DIR$/unit/src/concatWords.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit/tests/CheckHighYearTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/unit/tests/CheckHighYearTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit/tests/CheckNumberRangeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/unit/tests/CheckNumberRangeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit/tests/ConcatWordsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/unit/tests/ConcatWordsTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,68 +26,59 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eloquent/src/dbooks.php">
+        <entry file="file://$PROJECT_DIR$/shop/app/Http/Controllers/BookController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1915" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eloquent/resources/views/books/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="300">
+              <caret line="15" column="49" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="49" />
+              <folding>
+                <element signature="e#40#84#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eloquent/app/Admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eloquent/app/Book.php">
+        <entry file="file://$PROJECT_DIR$/shop/app/Http/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
-                <element signature="e#105#144#0#PHP" expanded="true" />
+                <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eloquent/app/Tag.php">
+        <entry file="file://$PROJECT_DIR$/shop/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="e#104#143#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="63" column="19" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eloquent/assets/config.php">
+        <entry file="file://$PROJECT_DIR$/shop/app/Http/Controllers/admin/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="20">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eloquent/resources/views/books/index.php">
+        <entry file="file://C:/xampp.old/htdocs/larashop/shopSystem/app/Http/Controllers/Admin/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state relative-caret-position="-420" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/xampp.old/htdocs/larashop/shopSystem/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -130,38 +99,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/eloquent" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/db/src/books.php" />
-        <option value="$PROJECT_DIR$/db/.htaccess" />
-        <option value="$PROJECT_DIR$/db/public/.htaccess" />
-        <option value="$PROJECT_DIR$/db/resources/views/default_layout.php" />
-        <option value="$PROJECT_DIR$/db/resources/views/books/find_query_book.php" />
-        <option value="$PROJECT_DIR$/db/resources/views/books/sor_books.php" />
-        <option value="$PROJECT_DIR$/db/resources/views/books/index.php" />
-        <option value="$PROJECT_DIR$/db/resources/views/books/sort_books.php" />
-        <option value="$PROJECT_DIR$/db/assets/books.sql" />
-        <option value="$PROJECT_DIR$/db/assets/config.php" />
-        <option value="$PROJECT_DIR$/db/composer.json" />
-        <option value="$PROJECT_DIR$/db/app/Book.php" />
-        <option value="$PROJECT_DIR$/db/app/Tag.php" />
-        <option value="$PROJECT_DIR$/eloquent/.htaccess" />
-        <option value="$PROJECT_DIR$/db/app/app.php" />
-        <option value="$PROJECT_DIR$/db/resources/views/books/book_by_id.php" />
-        <option value="$PROJECT_DIR$/eloquent/app/Tag.php" />
-        <option value="$PROJECT_DIR$/db/src/dbooks.php" />
-        <option value="$PROJECT_DIR$/eloquent/resources/views/books/find_query_book.php" />
-        <option value="$PROJECT_DIR$/db/app/DB.php" />
-        <option value="E:/torr/oop-mvc/[FreeTutorials.Us] php-mvc-login/05 Login authenticate the user using their email address and password/attached_files/033 Authenticate the user by verifying their password is correct/source-code/App/Models/User.php" />
-        <option value="$PROJECT_DIR$/eloquent/app/app.php" />
-        <option value="$PROJECT_DIR$/eloquent/core/router/router.php" />
-        <option value="$PROJECT_DIR$/eloquent/composer.json" />
-        <option value="$PROJECT_DIR$/eloquent/app/Book.php" />
-        <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/../../apache/conf/httpd.conf" />
         <option value="$PROJECT_DIR$/oop/SubCommand.php" />
         <option value="$PROJECT_DIR$/oop/PowCommand.php" />
         <option value="$PROJECT_DIR$/oop/SumCommand.php" />
@@ -176,6 +118,43 @@
         <option value="D:/downloads/books.sql" />
         <option value="$PROJECT_DIR$/eloquent/migrations/books.sql" />
         <option value="$PROJECT_DIR$/eloquent/assets/config.php" />
+        <option value="$PROJECT_DIR$/shop/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/eloquent/resources/views/default_layout.php" />
+        <option value="$PROJECT_DIR$/shop/resources/views/books/query_book.php" />
+        <option value="$PROJECT_DIR$/shop/resources/views/books/query_book.blade.php" />
+        <option value="$PROJECT_DIR$/shop/database/migrations/2019_05_21_112027_create_books_table.php" />
+        <option value="$PROJECT_DIR$/shop/database/migrations/2019_05_21_112047_create_tags_table.php" />
+        <option value="$PROJECT_DIR$/shop/config/app.php" />
+        <option value="$PROJECT_DIR$/shop/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/shop/app/Providers/AppServiceProvider.php" />
+        <option value="C:/xampp.old/htdocs/laracms/cms/app/Http/Controllers/PostController.php" />
+        <option value="$PROJECT_DIR$/shop/database/migrations/2019_05_21_144333_add_foreign.php" />
+        <option value="$PROJECT_DIR$/shop/database/migrations/2019_05_21_164212_add_foreign.php" />
+        <option value="$PROJECT_DIR$/shop/database/migrations/2019_05_21_122200_books_tags_table.php" />
+        <option value="$PROJECT_DIR$/shop/database/migrations/2019_05_21_164537_books_tags_table.php" />
+        <option value="$PROJECT_DIR$/shop/database/migrations/2019_05_21_164821_books_tags_table.php" />
+        <option value="$PROJECT_DIR$/shop/database/migrations/2019_05_21_170958_books_tags_table.php" />
+        <option value="$PROJECT_DIR$/shop/database/migrations/2019_05_21_181748_book_tag_table.php" />
+        <option value="$PROJECT_DIR$/shop/database/migrations/2019_05_21_182334_book_tag_table.php" />
+        <option value="$PROJECT_DIR$/shop/database/migrations/2019_05_21_183626_book_tag_table.php" />
+        <option value="$PROJECT_DIR$/shop/database/migrations/2019_05_21_184145_book_tag_table.php" />
+        <option value="$PROJECT_DIR$/shop/database/migrations/2019_05_21_184412_book_tag_table.php" />
+        <option value="$PROJECT_DIR$/shop/database/migrations/2019_05_21_184744_book_tag_table.php" />
+        <option value="$PROJECT_DIR$/shop/app/Tag.php" />
+        <option value="$PROJECT_DIR$/shop/app/Book.php" />
+        <option value="$PROJECT_DIR$/shop/resources/views/books/book.blade.php" />
+        <option value="$PROJECT_DIR$/shop/.env" />
+        <option value="$PROJECT_DIR$/shop/resources/views/books/sort.blade.php" />
+        <option value="$PROJECT_DIR$/shop/resources/views/books/books.blade.php" />
+        <option value="$PROJECT_DIR$/shop/app/Http/Controllers/BookController.php" />
+        <option value="$PROJECT_DIR$/shop/routes/web.php" />
+        <option value="$PROJECT_DIR$/shop/database/migrations/2019_05_22_201701_add_role_admin.php" />
+        <option value="$PROJECT_DIR$/shop/database/migrations/2019_05_22_202309_add_role_admin.php" />
+        <option value="$PROJECT_DIR$/shop/resources/views/default.blade.php" />
+        <option value="$PROJECT_DIR$/shop/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/shop/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/shop/app/Http/Controllers/admin/AdminController.php" />
+        <option value="$PROJECT_DIR$/shop/resources/views/home.blade.php" />
       </list>
     </option>
   </component>
@@ -196,7 +175,7 @@
       <path value="$PROJECT_DIR$/db/vendor/symfony/contracts" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-53" />
     <option name="y" value="10" />
     <option name="width" value="830" />
@@ -221,13 +200,20 @@
             <path>
               <item name="epam" type="b2602c69:ProjectViewProjectNode" />
               <item name="epam" type="462c0819:PsiDirectoryNode" />
-              <item name="eloquent" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="epam" type="b2602c69:ProjectViewProjectNode" />
               <item name="epam" type="462c0819:PsiDirectoryNode" />
-              <item name="eloquent" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,7 +223,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/eloquent/vendor/illuminate/support/Facades/DB.php" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/shop/.env&#10;C:/xampp/htdocs/epam/eloquent/vendor/illuminate/support/Facades/DB.php" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -250,6 +236,7 @@
       <recent name="C:\xampp\htdocs\epam\eloquent\app" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\epam\shop\public\css" />
       <recent name="C:\xampp\htdocs\epam\oop" />
       <recent name="C:\xampp\htdocs\epam\eloquent" />
       <recent name="C:\xampp\htdocs\epam\db\app" />
@@ -291,20 +278,23 @@
       <workItem from="1557488786915" duration="25080000" />
       <workItem from="1557690194487" duration="224000" />
       <workItem from="1557738184895" duration="18445000" />
-      <workItem from="1557860075690" duration="12601000" />
+      <workItem from="1557860075690" duration="13139000" />
+      <workItem from="1558434713643" duration="28668000" />
+      <workItem from="1558516934479" duration="15637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170920000" />
+    <option name="totallyTimeSpent" value="215763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27016744" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.33105022" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.8269231" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.8269231" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32867134" />
@@ -341,346 +331,304 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/app/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloquent/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#171#216#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/app/Tag.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/app/Book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/src/dbooks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
-          <folding>
-            <element signature="e#29#40#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloquent/app/DB.php" />
-    <entry file="file://$PROJECT_DIR$/eloquent/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#171#216#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloquent/vendor/illuminate/support/Facades/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloquent/vendor/illuminate/support/Facades/Facade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384">
-          <caret line="141" column="27" selection-start-line="141" selection-start-column="27" selection-end-line="141" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/xampp.old/htdocs/larashopItea/shop/app/Http/Controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/xampp.old/htdocs/larashopItea/shop/app/Http/Controllers/ArticleController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/xampp.old/htdocs/larashopItea/shop/app/Http/Controllers/Auth/AdminLoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-355" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloquent/resources/views/books/find_query_book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="43" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloquent/vendor/illuminate/database/Eloquent/Builder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="38" />
-          <folding>
-            <element signature="e#48#60#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloquent/vendor/illuminate/database/Eloquent/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/resources/views/books/book_by_id.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/torr/oop-mvc/[FreeTutorials.Us] php-mvc-login/06 Restrict access to authenticated users only/attached_files/048 Simplify the code remove the isLoggedIn method/source-code/App/Auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-900" />
-      </provider>
-    </entry>
-    <entry file="file://E:/torr/oop-mvc/[FreeCoursesOnline.Us] Lynda - PHP-Object-Oriented-Programming-Databases/Ex_Files_PHP_OOP_Databases/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_06/06_05-final/chain_gang/public/staff/admins/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85" />
-      </provider>
-    </entry>
-    <entry file="file://E:/torr/oop-mvc/[FreeTutorials.Us] php-mvc-login/06 Restrict access to authenticated users only/attached_files/043 Redirect back to the originally requested page after login/source-code/App/Auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1140" />
-      </provider>
-    </entry>
-    <entry file="file://E:/torr/oop-mvc/[FreeTutorials.Us] php-mvc-login/03 Validate the signup data on the server/attached_files/021 Redirect to the success page after a successful signup/source-code/Core/Error.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://E:/torr/oop-mvc/[FreeTutorials.Us] php-mvc-login/05 Login authenticate the user using their email address and password/attached_files/033 Authenticate the user by verifying their password is correct/source-code/App/Controllers/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/vendor/illuminate/database/Eloquent/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4537">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/torr/oop-mvc/[FreeTutorials.Us] php-mvc-login/05 Login authenticate the user using their email address and password/attached_files/033 Authenticate the user by verifying their password is correct/source-code/App/Models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-277">
-          <caret line="46" column="78" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_types.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="115" selection-start-line="115" selection-end-line="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloquent/core/router/router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../apache/conf/httpd.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="577" column="39" selection-start-line="577" selection-start-column="39" selection-end-line="577" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/app/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="147" column="39" selection-start-line="147" selection-start-column="39" selection-end-line="147" selection-end-column="39" />
-          <folding>
-            <element signature="e#23#31#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloquent/app/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oop/PowCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oop/SumCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oop/SubCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oop/DivisionCommand.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oop/MultiCommand.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oop/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oop/Calculator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oop/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding>
-            <element signature="e#57#76#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloquent/resources/views/books/book_by_id.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="70" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eloquent/resources/views/books/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        <state>
+          <caret selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eloquent/resources/views/books/login.php">
+    <entry file="file://$PROJECT_DIR$/eloquent/migrations/books.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="66">
+          <caret line="117" selection-start-line="117" selection-end-line="119" selection-end-column="42" />
+          <folding>
+            <element signature="e#1282#1456#0" />
+            <element signature="e#2609#2706#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eloquent/src/dbooks.php">
+    <entry file="file://$PROJECT_DIR$/shop/database/migrations/2019_05_21_112027_create_books_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1915" />
+        <state relative-caret-position="20">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eloquent/app/Admin.php">
+    <entry file="file://$PROJECT_DIR$/shop/database/migrations/2019_05_21_112047_create_tags_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="107">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp.old/htdocs/laracms/cms/app/Http/Controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#40#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/database/migrations/2019_05_21_144333_add_foreign.php" />
+    <entry file="file://$PROJECT_DIR$/shop/database/migrations/2019_05_21_122200_books_tags_table.php" />
+    <entry file="file://$PROJECT_DIR$/shop/database/migrations/2019_05_21_164212_add_foreign.php" />
+    <entry file="file://$PROJECT_DIR$/shop/database/migrations/2019_05_21_164537_books_tags_table.php" />
+    <entry file="file://C:/xampp.old/htdocs/laracms/cms/resources/views/admin/posts/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="35" column="74" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eloquent/app/Book.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="360">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="e#105#144#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/downloads/books.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="162" column="24" lean-forward="true" selection-end-line="170" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloquent/migrations/books.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloquent/assets/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloquent/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eloquent/app/Tag.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="260">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
             <element signature="e#104#143#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/database/migrations/2019_05_21_164821_books_tags_table.php" />
+    <entry file="file://D:/downloads/books_tags.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="42" selection-start-line="42" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/database/migrations/2019_05_21_170958_books_tags_table.php" />
+    <entry file="file://$PROJECT_DIR$/shop/database/migrations/2019_05_21_181748_book_tag_table.php" />
+    <entry file="file://$PROJECT_DIR$/shop/database/migrations/2019_05_21_182334_book_tag_table.php" />
+    <entry file="file://$PROJECT_DIR$/shop/database/migrations/2019_05_21_183626_book_tag_table.php" />
+    <entry file="file://$PROJECT_DIR$/shop/database/migrations/2019_05_21_184145_book_tag_table.php" />
+    <entry file="file://$PROJECT_DIR$/shop/database/migrations/2019_05_21_184412_book_tag_table.php" />
+    <entry file="file://C:/xampp.old/htdocs/laracms/cms/app/Http/Controllers/CategoriesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1517" />
+      </provider>
+    </entry>
+    <entry file="file://D:/downloads/book_tag.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="48" column="23" lean-forward="true" selection-start-line="42" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp.old/htdocs/laracms/cms/app/Http/Controllers/TagsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1177" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/database/migrations/2019_05_21_184744_book_tag_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/resources/views/books/book.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloquent/resources/views/default_layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="38" selection-start-line="38" selection-end-line="38" selection-end-column="4" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp.old/htdocs/laracms/cms/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="61" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="13" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloquent/src/dbooks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="99" column="8" selection-start-line="99" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/app/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/app/Book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <element signature="e#23#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/app/Tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#23#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/resources/views/books/sort.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="33" selection-start-line="16" selection-start-column="12" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/database/migrations/2019_05_22_201701_add_role_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/database/migrations/2019_05_22_202309_add_role_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/resources/views/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="53" column="58" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloquent/resources/views/books/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="67" column="12" selection-start-line="6" selection-end-line="67" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp.old/htdocs/larashop/shopSystem/app/Http/Middleware/RoleAuthMiddleware.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/xampp.old/htdocs/larashop/shopSystem/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp.old/htdocs/larashop/shopSystem/resources/views/admin/product/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-695" />
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp.old/htdocs/larashop/shopSystem/app/Http/Controllers/Admin/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/resources/views/books/books.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="89" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/app/Http/Controllers/BookController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="49" />
+          <folding>
+            <element signature="e#40#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/app/Http/Controllers/admin/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="19" />
         </state>
       </provider>
     </entry>
