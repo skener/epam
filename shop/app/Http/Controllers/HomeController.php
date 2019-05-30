@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Book;
+use App\Http\Middleware\RoleAdminMiddleware;
 
 class HomeController extends Controller
 {

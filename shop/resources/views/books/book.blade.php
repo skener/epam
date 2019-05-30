@@ -3,7 +3,7 @@
 
 @section('content')
     <p><h3>Your single book by ID:  {{$id}}</h3></p>
-{{--{{dd($book['poster'])}}--}}
+
     <div class="media-left">
 
             <img src="{{$book['poster']}}" class="media-object">
@@ -32,11 +32,6 @@
 
     </div>
 
-    <nav class="text-center">
-        <ul class="pagination">
-
-        </ul>
-    </nav>
 
     </div>
 

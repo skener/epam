@@ -34,10 +34,10 @@
         @endforeach
     </div>
 
-        <ul class="pagination">
-            <li class="page-item">
-                <a class="page-link" href="{{$books->links()}}"></a>
-            </li>
-        </ul>
+    <ul class="pagination">
+        <li class="page-item">
+            <a class="page-link" href="{{$books->links()}}"></a>
+        </li>
+    </ul>
 
 @endsection

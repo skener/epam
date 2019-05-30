@@ -1,16 +1,21 @@
 {
-    "require": {
+  "autoload": {
+    "psr-4": {
+      "src\\": "./src"
     },
-    "autoload": {
-        "classmap": [
-            "Calculator.php",
-            "SumCommand.php",
-            "PowCommand.php",
-            "MultiCommand.php",
-            "DivisionCommand.php",
-            "SubCommand.php"
-        ]
-
-    }
+    "classmap": [
+      "Calculator.php",
+      "SumCommand.php",
+      "PowCommand.php",
+      "MultiCommand.php",
+      "DivisionCommand.php",
+      "SubCommand.php"
+    ]
+  },
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.2"
+  }
 }
-
