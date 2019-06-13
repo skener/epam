@@ -6,6 +6,7 @@ use App\Book;
 use App\Http\Controllers\Controller;
 use App\Tag;
 use Illuminate\Http\Request;
+use App\Http\Requests\Admin\CreateBooksFormRequest;
 
 class AdminController extends Controller
 {
@@ -17,7 +18,7 @@ class AdminController extends Controller
         return view('admin.dashboard', compact('books'));
     }
 
-    public function create()
+    public function create(CreateBooksFormRequest $request)
     {
         $tags = Tag::all();
 

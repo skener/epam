@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddRoleAdmin extends Migration
+class IndexBooks extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,8 @@ class AddRoleAdmin extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->integer('admin')->default(0);
+        Schema::table('books', function (Blueprint $table) {
+            $table->index(['name', 'author']);
         });
     }
 
@@ -25,8 +25,8 @@ class AddRoleAdmin extends Migration
      */
     public function down()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn('admin');
+        Schema::table('books', function (Blueprint $table) {
+            $table->dropIndex(['name', 'author']);
         });
     }
 }
